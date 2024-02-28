@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "StargateAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "..\\StargateUI\\stargateui.esproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

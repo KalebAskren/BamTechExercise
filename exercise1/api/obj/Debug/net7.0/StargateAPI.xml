@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StargateAPI</name>
+    </assembly>
+    <members>
+        <member name="T:StargateAPI.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:StargateAPI.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:StargateAPI.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:StargateAPI.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:StargateAPI.Controllers.AstronautDutyController.GetAstronautDutiesByName(System.String)">
+            <summary>
+            Gets all astronaut duty for a person with the given name
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StargateAPI.Controllers.AstronautDutyController.CreateAstronautDuty(StargateAPI.Business.Commands.CreateAstronautDuty)">
+            <summary>
+            Create a duty for an astronaut
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StargateAPI.Controllers.PersonController.GetPeople">
+            <summary>
+            Gets all people in the astronaut DB
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StargateAPI.Controllers.PersonController.GetPersonByName(System.String)">
+            <summary>
+            Gets a Person by a name
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
